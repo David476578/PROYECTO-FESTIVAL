@@ -1,0 +1,32 @@
+/* Resert de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Google Font - Roboto, serif*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Roboto", serif;
+}
+
+h1 {
+    font-size: 60px;
+    color: black;
+    font-family: "Roboto", serif;
+}
+
+h3 {
+    color: goldenrod;
+}
+
+p {
+    font-size: 22px;
+}
+
+.navegador {
+    color: rgb(238, 3, 15);
+    text-decoration: none;
+}
+
