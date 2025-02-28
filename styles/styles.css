@@ -15,8 +15,8 @@ body {
 
 /* HEADER */
 .sol-logo {
-    width: 80px;
-    height: 55px;    
+    width: 60px;
+    height: 50px;    
 }
 
 .ul-propia {
@@ -26,6 +26,7 @@ body {
 }
 
 .bg-nav-propio {
+    padding: 0;
     background-color: rgb(122, 119, 112);
 }
 
@@ -35,10 +36,15 @@ body {
     color: black;
 }
 
+.nav-link:hover {
+    color: beige;
+    text-decoration: underline;
+}
+
 /* MAIN */
 h1 {
     text-align: center;
-    margin: 15px 0 15px 0;
+    margin: 90px 0 15px 0;
     font-size: 60px;
     color: black;
     font-family: "Roboto", serif;
@@ -70,6 +76,7 @@ footer {
 }
 
 footer p {
+    width: 700px;
     background-color: rgb(233, 213, 188);
     font-size: 15px;
     padding-top: 0px;
@@ -88,7 +95,7 @@ footer p {
 
 .logo-footer {
     width: 30px;
-    height: 30px;
+    height: 45px;
     margin: 10px;
     padding-top: 15px;
 }
